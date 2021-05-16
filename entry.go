@@ -12,6 +12,14 @@ import (
 //executed
 func main(){
 	fmt.Println("Home Page");
+
+	//Variable declararion - var varName dataType
+	var sampleData1 string = "Hello Deedee ";
+	var number int = 8642943024;
+
+	fmt.Printf("%s, %d", sampleData1, number);
+
+	//Use other functions
 	randomDataLib();
 }
 

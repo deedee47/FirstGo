@@ -25,4 +25,20 @@ In order to change the value of GO111MODULE on Windows, locate the file in the f
 
 "go tidy" adds all necessary dependencies to run tests in your project
 
-### 3.
+### 3. Variables
+
+Variable declaration : var varName DataType = value
+Variable declaration with expression assignment operator(:=) : varName := value
+There is no need for the "var" keyword in this case
+
+There are a number of datatypes represented in GO depending on signed/unsigned, for 16,32 or 64 bit representation. Examples are integers, float, boolean or string
+
+**Explicit declaration** : var name int64 = 100
+int64 is specificlly telling Go to use int for a 64bit scenario
+
+**Implicit declaration** : var name int = 0
+This means GO will implicitly determine which datatype it is based on the value assigned
+
+### 4. Printing to Console with fmt
+
+Tested a number of formatting tips for printing data to console
